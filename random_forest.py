@@ -25,7 +25,7 @@ class RandomForest(object):
     def create_bootstrap_dataset(self, XX, n):
         """
         In this method, create sample datasets with size n by sampling with replacement from XX.
-        You can prefer to use X and y instead of XX. It depends on your implementation.
+        
         Args:
             XX: original dataset (includes target feature y)
             n: sampling size
