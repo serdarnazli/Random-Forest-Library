@@ -14,6 +14,6 @@ y_pred = rf.majority_voting(X) # X = dataset. X must be pandas.DataFrame
 ```
 ## How to use utils?
 ```python
-from util import entropy, information_gain, split_node
+from util import entropy, information_gain, split_node, eval_metrics, confusion_matrix_
 ```
 
